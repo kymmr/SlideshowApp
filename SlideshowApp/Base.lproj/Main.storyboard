@@ -19,7 +19,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="na6-82-FvP">
                                 <rect key="frame" x="32" y="76" width="350" height="744"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" image="fox" translatesAutoresizingMaskIntoConstraints="NO" id="LCY-hp-YSg">
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" layoutMarginsFollowReadableWidth="YES" image="fox.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LCY-hp-YSg">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="656"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" button="YES" image="YES"/>
@@ -117,8 +117,6 @@
         <!--Full Screen View Controller-->
         <scene sceneID="AQD-gl-MlJ">
             <objects>
-                <exit id="W3I-t3-tLN" userLabel="Exit" sceneMemberID="exit"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vkL-mx-Vv2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController modalPresentationStyle="fullScreen" id="8mJ-Qb-rYw" customClass="FullScreenViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TQv-xQ-KJo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -169,6 +167,8 @@
                         <outlet property="scrollView" destination="cDD-Eq-iob" id="hgL-gx-PVQ"/>
                     </connections>
                 </viewController>
+                <exit id="W3I-t3-tLN" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vkL-mx-Vv2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="969.56521739130437" y="130.58035714285714"/>
         </scene>
@@ -176,7 +176,7 @@
     <resources>
         <image name="backward.fill" catalog="system" width="128" height="79"/>
         <image name="forward.fill" catalog="system" width="128" height="79"/>
-        <image name="fox" width="2048" height="1364"/>
+        <image name="fox.jpg" width="2048" height="1364"/>
         <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <namedColor name="Background">

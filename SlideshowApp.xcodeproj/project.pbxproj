@@ -14,6 +14,9 @@
 		443CE6E3247BAD7100220AAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443CE6E1247BAD7100220AAB /* Main.storyboard */; };
 		443CE6E5247BAD7300220AAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443CE6E4247BAD7300220AAB /* Assets.xcassets */; };
 		443CE6E8247BAD7300220AAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443CE6E6247BAD7300220AAB /* LaunchScreen.storyboard */; };
+		444360092487EF1E00389165 /* koala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 444360082487EF1E00389165 /* koala.jpg */; };
+		4443600B2487EF3100389165 /* parrots.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4443600A2487EF3100389165 /* parrots.jpg */; };
+		4443600D2487EF4100389165 /* fox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4443600C2487EF4100389165 /* fox.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		443CE6E4247BAD7300220AAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		443CE6E7247BAD7300220AAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		443CE6E9247BAD7300220AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444360082487EF1E00389165 /* koala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koala.jpg; sourceTree = "<group>"; };
+		4443600A2487EF3100389165 /* parrots.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parrots.jpg; sourceTree = "<group>"; };
+		4443600C2487EF4100389165 /* fox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fox.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				443CE6E6247BAD7300220AAB /* LaunchScreen.storyboard */,
 				443CE6E9247BAD7300220AAB /* Info.plist */,
 				4438C0B42482956E00EDB80B /* FullScreenViewController.swift */,
+				4443600A2487EF3100389165 /* parrots.jpg */,
+				444360082487EF1E00389165 /* koala.jpg */,
+				4443600C2487EF4100389165 /* fox.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -128,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444360092487EF1E00389165 /* koala.jpg in Resources */,
 				443CE6E8247BAD7300220AAB /* LaunchScreen.storyboard in Resources */,
 				443CE6E5247BAD7300220AAB /* Assets.xcassets in Resources */,
+				4443600D2487EF4100389165 /* fox.jpg in Resources */,
 				443CE6E3247BAD7100220AAB /* Main.storyboard in Resources */,
+				4443600B2487EF3100389165 /* parrots.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

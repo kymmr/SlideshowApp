@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     var timer: Timer!
     var counter: Int = 0
-    let imageList: Array<String> = ["fox", "koala", "parrots"]
+    let imageList: Array<String> = ["fox.jpg", "koala.jpg", "parrots.jpg"]
     var maxCount: Int!
     
     
@@ -95,7 +95,7 @@ class ViewController: UIViewController {
          } else if self.counter < 0 {
              self.counter = maxCount - 1
          }
-        
+            
         // フェードイン・アウトのアニメーション
         UIView.animate(withDuration: 0.3, delay: 0, options: UIView.AnimationOptions.allowUserInteraction, animations: {
             self.slideImage.alpha = 0.01
@@ -109,6 +109,16 @@ class ViewController: UIViewController {
     // 画像をタップしたら遷移させる
     @IBAction func onTapImage(_ sender: UITapGestureRecognizer) {
         performSegue(withIdentifier: "fullscreen", sender: nil)
+        if self.timer != nil {
+                   //スライドショー停止
+                   self.timer.invalidate()
+                   self.timer = nil
+                   
+                   //ボタン切り替え
+                   playButton.setImage(UIImage(systemName: "play.fill"), for: .normal)
+                   buttonStyle(prevButton, true)
+                   buttonStyle(nextButton, true)
+               }
     }
     
     //FullscreenViewControllerに画像を渡す
